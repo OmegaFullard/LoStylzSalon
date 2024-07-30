@@ -1,0 +1,468 @@
+﻿/*normalize*/
+html,
+body,
+form {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 16px "Segoe UI", FreeMono, monospace;
+    color: #E846CD;
+    width: 895px;
+    background-color: #FCF7E3;
+    margin: 20px auto 0px auto;
+    border: 1px solid #E846CD;
+    
+}
+
+/*Newly Added-does not work*/
+
+/*mainbg {
+    background-image: url("hairbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.2;
+    filter: opacity(=5);
+}*/
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+a {
+    background: transparent;
+}
+
+img {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    width: 100px;
+    margin-right: 0px;
+    margin-top: 0px;
+    height: 100px;
+    margin-left: 0px;
+}
+
+#logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+button,
+input {
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+hr {
+    border-width: 1px 0 0 0;
+    border-color: #767676;
+    border-style: solid;
+}
+
+/*typography*/
+h1, h2, h3, h4, h5, h6 {
+    line-height: normal;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    margin: .5em 0;
+}
+
+h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #1e1e2f;
+}
+
+h2 {
+    font-size: 1.875em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.125em
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: .875em;
+}
+
+/*template*/
+#wrapper .t-container-fluid {
+    max-width: 100%;
+}
+
+#wrapper .RadButton {
+    font-size: 1em;
+}
+
+#wrapper .RadMenu,
+div.RadMenuPopup,
+#wrapper .RadMenu_Default, #wrapper .RadMenu_Default a.rmLink {
+    font-size: 1em;
+}
+
+/* Form Elements*
+--------------------------------------------------------------------------*/
+
+
+.topnav {
+    background-color: ##E846CD;
+    width: 100%;
+    /* new features added*/
+    position: sticky;
+    z-index: 1;
+}
+
+    .topnav menu {
+        padding: 4px 0px 4px 8px;
+        /* new features added*/
+        position: sticky;
+        z-index: 1;
+    }
+
+    .topnav ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        /* new features added*/
+        position: sticky;
+        z-index: 1;
+    }
+
+    .topnav a {
+        background-color: #FCF7E3;
+        border: 1px solid;
+        color: #E846CD;
+        display: block;
+        line-height: 1.35em;
+        padding: 4px 20px;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+
+        .topnav a:hover {
+            background-color: #f2c2f2;
+            color: rebeccapurple;
+            text-decoration: none;
+        }
+
+div.topnav a:active {
+    background-color: #E66EA1;
+    color: #E673FF;
+    text-decoration: none;
+}
+
+div.hideSkiplink {
+    background-color: #f2c2f2;
+    width: 100%;
+    /* new features added*/
+    position: sticky;
+    z-index: 1;
+}
+
+div.sub_menu {
+    padding: 4px 0px 4px 8px;
+}
+
+    div.sub_menu ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+
+        div.sub_menu ul li a, div.sub_menu ul li a:visited {
+            background-color: #E673FF;
+            border: 1px #E66666 solid;
+            color: #E66666;
+            display: block;
+            line-height: 1.35em;
+            padding: 4px 20px;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+            div.sub_menu ul li a:hover {
+                background-color: #f2c2f2;
+                color: rebeccapurple;
+                text-decoration: none;
+            }
+
+            div.sub_menu ul li a:active {
+                background-color: #E673FF;
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {
+        width: 8.33%;
+    }
+
+    .col-s-2 {
+        width: 16.66%;
+    }
+
+    .col-s-3 {
+        width: 25%;
+    }
+
+    .col-s-4 {
+        width: 33.33%;
+    }
+
+    .col-s-5 {
+        width: 41.66%;
+    }
+
+    .col-s-6 {
+        width: 50%;
+    }
+
+    .col-s-7 {
+        width: 58.33%;
+    }
+
+    .col-s-8 {
+        width: 66.66%;
+    }
+
+    .col-s-9 {
+        width: 75%;
+    }
+
+    .col-s-10 {
+        width: 83.33%;
+    }
+
+    .col-s-11 {
+        width: 91.66%;
+    }
+
+    .col-s-12 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+/*gallery*/
+
+div.scroll-container {
+    background-color: #E846CD;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+    div.scroll-container img {
+        padding: 10px;
+    }
+
+/*checkout*/
+
+.container {
+    max-width: 960px;
+    background-color: antiquewhite;
+
+}
+
+/*Grids*/
+
+.grdHeader {
+    background-color: #FCF7E3;
+    font-size: 12px;
+}
+
+.grdAlternatingRow {
+    background-color: #E846CD;
+}
+
+.grdRecords {
+    font-size: 11px;
+    color: #ffffff;
+}
+
+.containerSearch {
+    text-align: left;
+    height: 22px;
+    background-color: #f0ecde;
+}
+
+.form-button {
+    color: Black;
+    background-color: #f0ecde;
+    font: normal 8pt Verdana, Arial, sans-serif;
+    border: 1px solid #000000;
+    width: 80px;
+}
+
+.btnGo {
+    background: url('Images/btnGo.gif') no-repeat left top;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btnAction {
+    height: 25px;
+    background: url(Images/btnAction.gif) no-repeat top left;
+    color: #ffffff;
+    width: 114px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #1b1b1b;
+}
+
+.actionButton {
+    padding: 3px 6px;
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 114px;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    background: #333;
+    color: #f0ecde !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+    border: 1px solid #1b1b1b;
+    font-weight: bold;
+}
+
+/*Calendars*/
+
+.MyCalendar .ajax__calendar_container {
+    border: 1px solid #646464;
+    background-color: #FFFACD;
+    color: red;
+}
+
+.MyCalendar .ajax__calendar_other .ajax__calendar_day,
+.MyCalendar .ajax__calendar_other .ajax__calendar_year {
+    color: black;
+}
+
+.MyCalendar .ajax__calendar_hover .ajax__calendar_day,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_month,
+.MyCalendar .ajax__calendar_hover .ajax__calendar_year {
+    color: black;
+}
+
+.MyCalendar .ajax__calendar_active .ajax__calendar_day,
+.MyCalendar .ajax__calendar_active .ajax__calendar_month,
+.MyCalendar .ajax__calendar_active .ajax__calendar_year {
+    color: black;
+    font-weight: bold;
+}
+
+.form-button {
+    color: Black;
+    background-color: #CCCCCC;
+    font: normal 8pt Verdana, Arial, sans-serif;
+    border: 1px solid #000000;
+    width: 80px;
+}
+
+.HeadingB {
+    font-weight: 600;
+    font-size: 1.6em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    margin-bottom: 0px;
+}
+
+.Heading {
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    margin-bottom: 0px;
+}

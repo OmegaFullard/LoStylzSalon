@@ -1,0 +1,156 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="LoStylz_Salon.SiteMaster" %>
+
+<!DOCTYPE html>
+
+  <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+         <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+
+                  <%--Logo--%>
+
+            <a href="#" class="logo">
+                <img src="images/LogoLoStylz.png" alt="site logo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+                  <h4 style="font-size: xx-large; font-weight: bold; font-style: italic; text-align: center;">Lo Stylz Hair Salon</h4>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+   
+
+<meta name="msapplication-TileColor" content="#da532c"/>
+<meta name="theme-color" content="#FCF7E3"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Lo Stylz Hair Salon</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+   
+     <style>
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+              
+            </Scripts>
+        </asp:ScriptManager>
+                    <%--Site Scripts--%>
+        <link href="Styles/styles.css" rel="stylesheet" />
+            <script src="Scripts/jquery-3.4.1.slim.min.js"></script>      
+<script src="http://localhost:64954/Scripts/popper.min.js"></script>
+<script src="http://localhost:64954/Scripts/bootstrap.min.js"></script>
+
+         <link href="http://localhost:64954/css/bootstrap.min.css" rel="stylesheet" />
+ <link href="http://localhost:64954/Content/DataTables/css/dataTables.jqueryui.min.css" rel="stylesheet" />
+
+ <link href="http://localhost:64954/css/font-awesome.css" rel="stylesheet" />
+        
+        	  <script>
+    $(document).ready(function(){
+    $('#pw').keypress(function(e){
+      if(e.keyCode==13)
+      $('#GoBtn').click();
+    });
+});
+              </script>
+
+               <!-- Main Nav -->
+
+     <div class="topnav menu">
+            <asp:Menu ID="NavigationMenu" runat="server" CssClass="topnav" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" EnableScreenBoundaryDetection="true">
+               <Items>
+              
+                    <asp:MenuItem NavigateUrl="Home.aspx" Text="Home" />
+                    
+                   
+        
+                   <asp:MenuItem Text="Lo Stylz">
+                
+               <asp:MenuItem Text="Contact Us" NavigateUrl="Contact.aspx"></asp:MenuItem>
+               <asp:MenuItem Text="Availability" NavigateUrl="Availability.aspx"></asp:MenuItem>
+               <asp:MenuItem Text= "Book Appt" NavigateUrl="BookAppt.aspx"></asp:MenuItem>
+               <asp:MenuItem Text="Gallery" NavigateUrl="Gallery.aspx"></asp:MenuItem>
+			 
+             </asp:MenuItem>
+
+           
+            </Items>
+            </asp:Menu>
+</div>
+           
+        <div class="body">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> -Lo Stylz Hair Salon</p>
+            </footer>
+        </div>
+    </form>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+
+</body>
+</html>
