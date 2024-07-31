@@ -46,7 +46,8 @@ a {
 img {
     border-style: none;
     border-color: inherit;
-    border-width: 0;
+    border-width: 0;  
+    border-radius: 4px;
     width: 100px;
     margin-right: 0px;
     margin-top: 0px;
@@ -131,7 +132,7 @@ div.RadMenuPopup,
 
 
 .topnav {
-    background-color: ##E846CD;
+    background-color: #E846CD;
     width: 100%;
     /* new features added*/
     position: sticky;

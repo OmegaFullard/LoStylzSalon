@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="LoStylz_Salon._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+    <div class="container-fluid">
     <main>
         <center><h4 class="card-title">Home Page</h4>
        <br />
@@ -20,12 +20,12 @@
         <span class="k-button k-solid k-success" style="color: #ffffff; background-color: #E846CD ; border: medium solid #FF80AA ">Gallery</span>
         <br />
              <br />
-        
-                   <asp:Image ID="tools" runat="server" ImageUrl="~/images/tools2.jpg"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="250px" style="margin-top: 5px" Width="250px" />
+        <div class="container">
+                   <asp:Image ID="tools" runat="server" ImageUrl="~/images/tools2.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="250px" style="margin-top: 5px" Width="250px" />
              
                                     <br />
-                     <asp:Image ID="hairstylist" runat="server" ImageUrl="~/images/stylist.jpg"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="250px" style="margin-top: 5px" Width="250px" />
-               
+                     <asp:Image ID="hairstylist" runat="server" ImageUrl="~/images/stylist.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="250px" style="margin-top: 5px" Width="250px" />
+               </div>
   
              <br />
         <br />
@@ -39,5 +39,6 @@
    <p>Leave us a review and let us how we are doing and how we can improve. </p>
 </div>
     </main>
+        </div>
 
 </asp:Content>

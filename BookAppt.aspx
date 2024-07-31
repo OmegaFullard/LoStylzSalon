@@ -1,8 +1,8 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BookAppt.aspx.cs" Inherits="LoStylz_Salon.BookAppt" %>
 
 <!DOCTYPE html>
-
 <html lang="en" data-bs-theme="auto">
+
   <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
@@ -19,7 +19,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link href="Styles/styles.css" rel="stylesheet" />
+            <script src="Scripts/jquery-3.4.1.slim.min.js"></script>      
+<script src="http://localhost:64954/Scripts/popper.min.js"></script>
+<script src="http://localhost:64954/Scripts/bootstrap.min.js"></script>
 
+         <link href="http://localhost:64954/css/bootstrap.min.css" rel="stylesheet" />
+ <link href="http://localhost:64954/Content/DataTables/css/dataTables.jqueryui.min.css" rel="stylesheet" />
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -174,7 +180,7 @@
             <div>
               <h6 class="my-0">Wash and Style</h6>
                  <asp:TableCell> 
-                   <asp:Image ID="tools" runat="server" ImageUrl="~/images/shampoo.jpg"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
+                     <asp:Image ID="tools" runat="server" ImageUrl="~/images/shampoo.jpg" class="img" BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" Style="margin-top: 5px" Width="150px" />
              <br/>
               <small class="text-body-secondary">Shampoo and hair styling</small>
                             
@@ -186,7 +192,7 @@
             <div>
               <h6 class="my-0">Color Treatment</h6>
                 <asp:TableCell> 
-                   <asp:Image ID="haircolors" runat="server" ImageUrl="~/images/haircolors.jpg"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
+                   <asp:Image ID="haircolors" runat="server" ImageUrl="~/images/haircolors.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
              
 </asp:TableCell>
                 <br />
@@ -199,7 +205,7 @@
             <div>
               <h6 class="my-0">Wash/Style/Cut</h6>
                  <asp:TableCell> 
-                   <asp:Image ID="cut" runat="server" ImageUrl="~/images/stylist.jpg"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
+                   <asp:Image ID="cut" runat="server" ImageUrl="~/images/stylist.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
              <br />
               <small class="text-body-secondary">VIP Package!!</small>
                                         

@@ -12,7 +12,7 @@
     
     <br />
     
-    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          <asp:Button ID="Button1" runat="server" Text="Search" CssClass="btnGo" Width="200px" />
+    <asp:TextBox ID="TextBox1" runat="server" CssClass="input-group-sm"></asp:TextBox>          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;          <asp:Button ID="Button1" runat="server" Text="Search" CssClass="btnAction" Width="200px" BackColor="#666666" BorderStyle="Groove" />
         <br />
     <br />
     <br />
