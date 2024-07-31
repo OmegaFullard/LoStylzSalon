@@ -11,6 +11,7 @@ body {
     font: normal 16px "Segoe UI", FreeMono, monospace;
     color: #E846CD;
     width: 895px;
+    height: auto;
     background-color: #FCF7E3;
     margin: 20px auto 0px auto;
     border: 1px solid #E846CD;
@@ -344,8 +345,7 @@ div.scroll-container {
 
 .container {
     max-width: 960px;
-    background-color: antiquewhite;
-
+    background-color: #FCF7E3;
 }
 
 /*Grids*/
