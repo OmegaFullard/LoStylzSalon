@@ -104,7 +104,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="appointment.js" />
     <Content Include="Availability.aspx" />
+    <Content Include="availability.js" />
     <Content Include="BookAppt.aspx" />
     <Content Include="checkout.js" />
     <Content Include="Gallery.aspx" />

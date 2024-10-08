@@ -1,17 +1,32 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BookAppt.aspx.cs" Inherits="LoStylz_Salon.BookAppt" %>
 
 <!DOCTYPE html>
+
+<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+         <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+
+                  <%--Logo--%>
+
+            <a href="#" class="logo">
+                <img src="images/LogoLoStylz.png" alt="site logo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+                  <h4 style="font-size: xx-large; font-weight: bold; font-style: italic; text-align: center;">Lo Stylz Hair Salon</h4>
 <html lang="en" data-bs-theme="auto">
 
-  <head><script src="../assets/js/color-modes.js"></script>
+  <head>
+      <script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Omega Fullard, Web Designer">
     <meta name="generator" content="">
-    <title>Checkout</title>
-
+    
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
 
     
@@ -105,10 +120,121 @@
       }
     </style>
 
-    
+      <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+   
+     <style>
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+
+<body>
+   
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+              
+            </Scripts>
+        </asp:ScriptManager>
+                    <%--Site Scripts--%>
+        <link href="Styles/styles.css" rel="stylesheet" />
+            <script src="Scripts/jquery-3.4.1.slim.min.js"></script>      
+<script src="http://localhost:64954/Scripts/popper.min.js"></script>
+<script src="http://localhost:64954/Scripts/bootstrap.min.js"></script>
+
+         <link href="http://localhost:64954/css/bootstrap.min.css" rel="stylesheet" />
+ <link href="http://localhost:64954/Content/DataTables/css/dataTables.jqueryui.min.css" rel="stylesheet" />
+
+ <link href="http://localhost:64954/css/font-awesome.css" rel="stylesheet" />
+        
+        	  <script>
+    $(document).ready(function(){
+    $('#pw').keypress(function(e){
+      if(e.keyCode==13)
+      $('#GoBtn').click();
+    });
+});
+              </script>
+
+               <!-- Main Nav -->
+
+     <div class="topnav menu">
+            <asp:Menu ID="NavigationMenu" runat="server" CssClass="topnav" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" EnableScreenBoundaryDetection="true">
+               <Items>
+              
+                    <asp:MenuItem NavigateUrl="Home.aspx" Text="Home" />
+                    
+                   
+        
+                   <asp:MenuItem Text="Lo Stylz">
+                
+               <asp:MenuItem Text="Contact Us" NavigateUrl="Contact.aspx"></asp:MenuItem>
+               <asp:MenuItem Text="Availability" NavigateUrl="Availability.aspx"></asp:MenuItem>
+               <asp:MenuItem Text= "Book Appt" NavigateUrl="BookAppt.aspx"></asp:MenuItem>
+               <asp:MenuItem Text="Gallery" NavigateUrl="Gallery.aspx"></asp:MenuItem>
+			 
+             </asp:MenuItem>
+
+           
+            </Items>
+            </asp:Menu>
+</div>
     <!-- Custom styles for this template -->
     <link href="checkout.css" rel="stylesheet">
-  </head>
+ 
+
    
   <body class="bg-body-tertiary" background:"#e1f0e9">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -170,75 +296,45 @@
       <h2>Appointment Booking Checkout</h2>
       <p class="lead">Checkout form for booking new appointment</p>
     </div>
- 
-    <div class="row g-5">
-      <div class="col-md-5 col-lg-4 order-md-last">
-        <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Prices for Services:</span></h4>
-        <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Wash and Style</h6>
-                 <asp:TableCell> 
-                     <asp:Image ID="tools" runat="server" ImageUrl="~/images/shampoo.jpg" class="img" BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" Style="margin-top: 5px" Width="150px" />
-             <br/>
-              <small class="text-body-secondary">Shampoo and hair styling</small>
-                            
-</asp:TableCell>
-            </div>
-            <span class="text-body-secondary">$75</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Color Treatment</h6>
-                <asp:TableCell> 
+ <form runat="server">
+        <asp:ScriptManager runat="server">
+      <form action="/book-appointment" method="POST">
+  <label for="service">Service:</label>
+          <asp:TableCell> 
                    <asp:Image ID="haircolors" runat="server" ImageUrl="~/images/haircolors.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
              
 </asp:TableCell>
-                <br />
-              <small class="text-body-secondary">Choose from a variety of vibranat colors</small>
-                         
-            </div>
-            <span class="text-body-secondary">$90</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6 class="my-0">Wash/Style/Cut</h6>
-                 <asp:TableCell> 
-                   <asp:Image ID="cut" runat="server" ImageUrl="~/images/stylist.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
-             <br />
-              <small class="text-body-secondary">VIP Package!!</small>
-                                        
-</asp:TableCell>
-            </div>
-            <span class="text-body-secondary">$100</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-            <div class="text-success">
-              <h6 class="my-0">Promo code:</h6>
-              <br />
-                                             <asp:TableCell> 
-                   <asp:Image ID="promo" runat="server" ImageUrl="~/images/promo.png"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
-         
-</asp:TableCell>
+           </asp:ScriptManager>
+  <select id="service" name="service">
+    <option value="haircut">Haircut</option>
+    <option value="coloring">Color Treatment</option>
+	 <option value="washandstyle">Wash and Set</option>
+    <option value="Multi">Multiple Services</option>
+    <!-- Add more services as needed -->
+  </select>
+<br />
+  <label for="stylist">Choose a Stylist:</label>
+          <asp:Image ID="sylist" runat="server" ImageUrl="~/images/stylist.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
+  <select id="stylist" name="stylist">
+    <option value="stylist1">Lola James</option>
+    <option value="stylist2">Bill Gully</option>
+	<option value="stylist3">Nicole Rappenport</option>
+    <option value="stylist4">Jessie Baker</option>
+	<option value="stylist5">Lilith Carlton</option>
+    <option value="stylist6">Kannady Linberg</option>
+	<option value="stylist7">Skylar Olstein</option>
+    <option value="stylist8">Pauline Nickerson</option>
+    <!-- Add more stylists as needed -->
+  </select>
 
-            </div>
-            <small>Back2Skool</small>
-<span class="text-success">−$10</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between">
-            <span>Total (USD)</span>
-            <strong>$150</strong>
-          </li>
-        </ul>
+  <label for="date">Date:</label>
+  <input type="date" id="date" name="date" required>
 
-        <form class="card p-2">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
-            <button type="submit" class="btn btn-secondary">Redeem</button>
-          </div>
-        </form>
-      </div>
+  <label for="time">Time:</label>
+  <input type="time" id="time" name="time" required>
+
+  
+ </form>
         <br />
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
@@ -441,9 +537,15 @@
           <hr class="my-4">
 
           <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
-        </form>
-      </div>
+             </form>
+             <div id="confirmation" style="display:none;">
+        <h2>Appointment Confirmed</h2>
+        <p id="confirmationDetails"></p>
     </div>
+
+       
+      </div>
+   
   </main>
     <br />
     <div>
@@ -459,7 +561,12 @@
     </ul>
   </footer>
 </div>
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+         <script src="appointment.js"></script>
+      <script src="appointment.js"></script>
     <script src="checkout.js"></script></body>
+    </form>
+    </body> 
 </html>

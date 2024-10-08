@@ -15,13 +15,13 @@ namespace LoStylz_Salon
 	{
 
 		/// <summary>
-		/// tools control.
+		/// NavigationMenu control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Image tools;
+		protected global::System.Web.UI.WebControls.Menu NavigationMenu;
 
 		/// <summary>
 		/// haircolors control.
@@ -33,21 +33,12 @@ namespace LoStylz_Salon
 		protected global::System.Web.UI.WebControls.Image haircolors;
 
 		/// <summary>
-		/// cut control.
+		/// sylist control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Image cut;
-
-		/// <summary>
-		/// promo control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Image promo;
+		protected global::System.Web.UI.WebControls.Image sylist;
 	}
 }

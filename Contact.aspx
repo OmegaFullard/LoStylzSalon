@@ -15,7 +15,7 @@
         <address>
             Lo Stylz Hair Salon<br />
             6868 Cutz Way Royal City, FL 30039<br />
-            <abbr title="Phone">P:</abbr>
+            <abbr title="Phone">Phone:</abbr>
             813.555.0100
         </address>
 

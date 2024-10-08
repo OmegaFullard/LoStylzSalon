@@ -17,7 +17,7 @@
         <center><p><strong>Hello, and welcome to Lo Stylz Hair Salon. Be sure to book your appointment and check out our gallery of styles.</strong></p></center>
       
         
-        <span class="k-button k-solid k-success" style="color: #ffffff; background-color: #E846CD ; border: medium solid #FF80AA ">Gallery</span>
+        <span class="k-button k-solid k-success" style="color: #ffffff; background-color: #E846CD ; border: medium solid #FF80AA "><button onclick = "Gallery.aspx">Gallery</button></span>
         <br />
              <br />
         <div class="container">
