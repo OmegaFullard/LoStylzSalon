@@ -26,7 +26,7 @@
     <meta name="description" content="">
     <meta name="author" content="Omega Fullard, Web Designer">
     <meta name="generator" content="">
-    
+     <title>Book Appointment</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
 
     
@@ -169,7 +169,7 @@
 </head>
 
 <body>
-   
+   <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
                 <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
@@ -296,15 +296,9 @@
       <h2>Appointment Booking Checkout</h2>
       <p class="lead">Checkout form for booking new appointment</p>
     </div>
- <form runat="server">
-        <asp:ScriptManager runat="server">
-      <form action="/book-appointment" method="POST">
+ 
   <label for="service">Service:</label>
-          <asp:TableCell> 
-                   <asp:Image ID="haircolors" runat="server" ImageUrl="~/images/haircolors.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
-             
-</asp:TableCell>
-           </asp:ScriptManager>
+                  
   <select id="service" name="service">
     <option value="haircut">Haircut</option>
     <option value="coloring">Color Treatment</option>
@@ -333,12 +327,10 @@
   <label for="time">Time:</label>
   <input type="time" id="time" name="time" required>
 
-  
- </form>
         <br />
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
-        <form class="needs-validation" novalidate>
+        
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">First name</label>
@@ -537,7 +529,7 @@
           <hr class="my-4">
 
           <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
-             </form>
+          
              <div id="confirmation" style="display:none;">
         <h2>Appointment Confirmed</h2>
         <p id="confirmationDetails"></p>
