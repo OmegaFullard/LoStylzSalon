@@ -11,64 +11,69 @@ namespace LoStylz_Salon
 {
 	public partial class Availability : System.Web.UI.Page
 	{
+		protected DropDownList stylistDropDown;
+		protected TextBox dateTextBox;
+		protected TextBox timeTextBox;
+		protected TextBox depositTextBox;
+		protected Label errorLabel;
+		protected Label confirmationLabel;
+
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+			if (!IsPostBack)
+			{
+				// Initialize controls
+				stylistDropDown = (DropDownList)FindControl("stylistDropDown");
+				dateTextBox = (TextBox)FindControl("dateTextBox");
+				timeTextBox = (TextBox)FindControl("timeTextBox");
+				depositTextBox = (TextBox)FindControl("depositTextBox");
+				errorLabel = (Label)FindControl("errorLabel");
+				confirmationLabel = (Label)FindControl("confirmationLabel");
+			}
 		}
 
-		//Gridview removed 10/8/24
-		private string ConvertSortDirection(System.Web.UI.WebControls.GridViewSortEventArgs e)
+		protected void btnBook_Click(object sender, EventArgs e)
 		{
-			ViewState.Add("columnname", e.SortExpression);
+			string stylist = stylistDropDown.SelectedValue;
+			DateTime date;
+			TimeSpan time;
+			decimal deposit;
 
-			if ((ViewState["direction"] == null))
-				ViewState.Add("direction", "asc");
-			else
-				ViewState["direction"] = Interaction.IIf(ViewState["direction"].ToString().ToLower() == "desc", "asc", "desc");
+			// Parse and validate input
+			if (!DateTime.TryParse(	dateTextBox.Text, out date) ||
+				!TimeSpan.TryParse(timeTextBox.Text, out time) ||
+				!decimal.TryParse(depositTextBox.Text, out deposit))
+			{
+				// Show error message
+				errorLabel.Text = "Invalid input. Please check your entries.";
+				return;
+			}
 
-			return ViewState["direction"].ToString();
+			// Check availability (pseudo-code)
+			if (!IsStylistAvailable(stylist, date, time))
+			{
+				errorLabel.Text = "Selected stylist is not available at this time.";
+				return;
+			}
+
+			// Save booking (pseudo-code)
+			SaveAppointment(stylist, date, time, deposit);
+
+			// Show confirmation
+			confirmationLabel.Text = "Appointment booked successfully!";
 		}
-		//protected void GridView1_Sorting(object sender, GridViewSortEventArgs e)
-		//{
-		//	try
-		//	{
-		//		DataView m_Dataview = (DataView)GridView1.DataSource;
 
-		//		if (m_Dataview == null)
-		//		{
-		//			m_Dataview.Sort = e.SortExpression + " " + ConvertSortDirection(e);
-		//			this.GridView1.DataSource = m_Dataview;
-		//			this.GridView1.DataBind();
-		//		}
-		//	}
-		//	catch (Exception)
-		//	{
-		//		throw;
-		//	}
-		//}
+		// Example stub for availability check
+		private bool IsStylistAvailable(string stylist, DateTime date, TimeSpan time)
+		{
+			// Query your data store to check for conflicts
+			return true;
+		}
 
-		//protected void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)
-		//{
-		//	try
-		//	{
-		//		if (!(Information.IsNothing(ViewState["columnname"]) | Information.IsNothing(ViewState["direction"])))
-		//		{
-		//			DataView m_DataView = (DataView)this.GridView1.DataSource;
-
-		//			if (m_DataView == null)
-		//			{
-		//				m_DataView.Sort = ViewState["columnname"].ToString() + " " + ViewState["direction"].ToString();
-		//				this.GridView1.DataSource = m_DataView;
-		//			}
-		//		}
-
-		//		this.GridView1.PageIndex = e.NewPageIndex;
-		//		this.GridView1.DataBind();
-		//	}
-		//	catch (Exception)
-		//	{
-		//		throw;
-		//	}
-		//}
+		// Example stub for saving appointment
+		private void SaveAppointment(string stylist, DateTime date, TimeSpan time, decimal deposit)
+		{
+			// Insert into your database or data store
+		}
 	}
 }

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\appointment.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:appointment.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\availability.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:availability.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\availability.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:availability.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +18,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appointment.js",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\appointment.js",
-              "RelativeDocumentMoniker": "appointment.js",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\appointment.js",
-              "RelativeToolTip": "appointment.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-28T19:22:28.025Z",
+              "Title": "Availability.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Availability.aspx.cs",
+              "RelativeDocumentMoniker": "Availability.aspx.cs",
+              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Availability.aspx.cs",
+              "RelativeToolTip": "Availability.aspx.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:45:47.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "31923510-1c5d-41ee-a9e2-e1c6821d9da7",
+        "Display": 1,
+        "X": 438,
+        "Y": 77,
+        "Width": 1061,
+        "Height": 943,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Availability.aspx",
+              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Availability.aspx",
+              "RelativeDocumentMoniker": "Availability.aspx",
+              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Availability.aspx",
+              "RelativeToolTip": "Availability.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-20T14:08:41.803Z",
               "EditorCaption": ""
             }
           ]

@@ -140,7 +140,6 @@ C:\Users\omega.fullard\source\repos\LoStylz_Salon\LoStylzSalon\bin\Microsoft.Asp
 C:\Users\omega.fullard\source\repos\LoStylz_Salon\LoStylzSalon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\omega.fullard\source\repos\LoStylz_Salon\LoStylzSalon\obj\Debug\LoStylz_Salon.csproj.AssemblyReference.cache
 C:\Users\omega.fullard\source\repos\LoStylz_Salon\LoStylzSalon\obj\Debug\LoStylz_Salon.csproj.CoreCompileInputs.cache
-C:\Users\omega.fullard\source\repos\LoStylz_Salon\LoStylzSalon\obj\Debug\LoStylz_Salon.csproj.CopyComplete
 C:\Users\omega.fullard\source\repos\LoStylz_Salon\LoStylzSalon\obj\Debug\LoStylz_Salon.dll
 C:\Users\omega.fullard\source\repos\LoStylz_Salon\LoStylzSalon\obj\Debug\LoStylz_Salon.pdb
 C:\Users\omega.fullard\OneDrive - City of Philadelphia\repos\LoStylz_Salon\LoStylzSalon\obj\Debug\LoStylz_Salon.csproj.AssemblyReference.cache
@@ -215,3 +214,4 @@ C:\Users\omega.fullard\OneDrive - City of Philadelphia\repos\LoStylz_Salon\LoSty
 C:\Users\omega.fullard\OneDrive - City of Philadelphia\repos\LoStylz_Salon\LoStylzSalon\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\omega.fullard\OneDrive - City of Philadelphia\repos\LoStylz_Salon\LoStylzSalon\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\omega.fullard\OneDrive - City of Philadelphia\repos\LoStylz_Salon\LoStylzSalon\obj\Debug\LoStylz_Salon.csproj.CopyComplete
+C:\Users\omega.fullard\source\repos\LoStylz_Salon\LoStylzSalon\obj\Debug\LoStylz_.70D175DC.Up2Date
