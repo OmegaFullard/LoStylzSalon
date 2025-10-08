@@ -259,7 +259,7 @@
                 <label for="deposit">Deposit Amount:</label>
         <input type="number" id="deposit" name="deposit" value="40" readonly> <!-- Example deposit amount -->
         <br />
-        <button type="submit">Book Appointment</button>
+        <button type="button" onclick="window.location.href='BookAppt.aspx'">Book Appointment</button>
  
 
     <div id="confirmation" style="display:none;">

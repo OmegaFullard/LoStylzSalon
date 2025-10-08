@@ -528,7 +528,7 @@
 
           <hr class="my-4">
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
           
              <div id="confirmation" style="display:none;">
         <h2>Appointment Confirmed</h2>
@@ -547,9 +547,9 @@
   <footer class="my-5 pt-5 text-body-secondary text-center text-small">
     <p class="mb-1">&copy; 2024 Lo Stylz Hair Salon</p>
     <ul class="list-inline">
-        <li class="list-inline-item"><a href="#">Privacy</a></li>
-      <li class="list-inline-item"><a href="#">Terms</a></li>
-      <li class="list-inline-item"><a href="#">Support</a></li>
+        <li class="list-inline-item"><a href="Privacy.aspx">Privacy</a></li>
+      <li class="list-inline-item"><a href="Terms.aspx">Terms</a></li>
+      <li class="list-inline-item"><a href="Support.aspx">Support</a></li>
     </ul>
   </footer>
 </div>

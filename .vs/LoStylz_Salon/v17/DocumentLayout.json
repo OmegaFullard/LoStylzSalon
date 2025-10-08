@@ -3,15 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5E25126-B507-4F95-BB30-5CE1212F156E}|..\\LoStylz_Salon.Tests\\LoStylz_Salon.Tests.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylz_salon.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\terms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:terms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\availability.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:availability.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\terms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:terms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\availability.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:availability.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\bookappt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:bookappt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,28 +50,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylz_Salon.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\LoStylz_Salon.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylz_Salon.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\LoStylz_Salon.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Terms.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Terms.aspx.cs",
+              "RelativeDocumentMoniker": "Terms.aspx.cs",
+              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Terms.aspx.cs",
+              "RelativeToolTip": "Terms.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:37:06.315Z",
+              "WhenOpened": "2025-10-08T17:59:31.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Availability.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Availability.aspx.cs",
-              "RelativeDocumentMoniker": "Availability.aspx.cs",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Availability.aspx.cs",
-              "RelativeToolTip": "Availability.aspx.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:45:47.56Z",
+              "DocumentIndex": 0,
+              "Title": "Terms.aspx",
+              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Terms.aspx",
+              "RelativeDocumentMoniker": "Terms.aspx",
+              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Terms.aspx",
+              "RelativeToolTip": "Terms.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-08T17:59:06.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookAppt.aspx",
+              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\BookAppt.aspx",
+              "RelativeDocumentMoniker": "BookAppt.aspx",
+              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\BookAppt.aspx",
+              "RelativeToolTip": "BookAppt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-08T17:47:10.187Z",
               "EditorCaption": ""
             }
           ]
@@ -82,40 +96,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "31923510-1c5d-41ee-a9e2-e1c6821d9da7",
-        "Display": 1,
-        "X": 438,
-        "Y": 77,
-        "Width": 1061,
-        "Height": 943,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Availability.aspx",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Availability.aspx",
-              "RelativeDocumentMoniker": "Availability.aspx",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Availability.aspx",
-              "RelativeToolTip": "Availability.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-20T14:08:41.803Z",
-              "EditorCaption": ""
             }
           ]
         }
