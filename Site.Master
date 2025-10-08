@@ -137,7 +137,7 @@
                        <asp:MenuItem Text="Contact Us" NavigateUrl="Contact.aspx"></asp:MenuItem>
                <asp:MenuItem Text="Support" NavigateUrl="Support.aspx"></asp:MenuItem>
                <asp:MenuItem Text="Privacy" NavigateUrl="Privacy.aspx"></asp:MenuItem>
-               <asp:MenuItem Text="Terms" NavigateUrl="Contact.aspx"></asp:MenuItem>
+               <asp:MenuItem Text="Terms" NavigateUrl="Terms.aspx"></asp:MenuItem>
              </asp:MenuItem>
 
            

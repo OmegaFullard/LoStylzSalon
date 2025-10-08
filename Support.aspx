@@ -20,12 +20,10 @@
     Offering 24/7 Support to our clients through our partner "Royal City Help Desk".
                <br />
                Please feel free to contact us for addtional infromation.
-               <a href="Contact.aspx"></a> 
-  
+        <br />       
+       
     </p>
-    <button class="btn btn-primary px-5 mb-5" type="button">
-      
-    </button>
+    <p><button type="button" class="btn btn-primary px-5 mb-5" onclick="window.location.href='Contact.aspx'">Contact Us</button></p>
   </div>
 </div>
 
