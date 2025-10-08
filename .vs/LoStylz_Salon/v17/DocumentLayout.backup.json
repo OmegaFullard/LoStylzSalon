@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\terms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:terms.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\terms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:terms.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\bookappt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:bookappt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,40 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Terms.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Terms.aspx.cs",
-              "RelativeDocumentMoniker": "Terms.aspx.cs",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Terms.aspx.cs",
-              "RelativeToolTip": "Terms.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T17:59:31.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Terms.aspx",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Terms.aspx",
-              "RelativeDocumentMoniker": "Terms.aspx",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Terms.aspx",
-              "RelativeToolTip": "Terms.aspx",
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Site.Master",
+              "RelativeDocumentMoniker": "Site.Master",
+              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Site.Master",
+              "RelativeToolTip": "Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-08T17:59:06.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookAppt.aspx",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\BookAppt.aspx",
-              "RelativeDocumentMoniker": "BookAppt.aspx",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\BookAppt.aspx",
-              "RelativeToolTip": "BookAppt.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-08T17:47:10.187Z",
+              "WhenOpened": "2025-10-08T18:07:22.058Z",
               "EditorCaption": ""
             }
           ]
