@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\reviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:reviews.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\reviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:reviews.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,67 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Reviews.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Reviews.aspx.cs",
-              "RelativeDocumentMoniker": "Reviews.aspx.cs",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Reviews.aspx.cs",
-              "RelativeToolTip": "Reviews.aspx.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAiwI8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T16:08:25.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Reviews.aspx",
-              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Reviews.aspx",
-              "RelativeDocumentMoniker": "Reviews.aspx",
-              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Reviews.aspx",
-              "RelativeToolTip": "Reviews.aspx",
+              "Title": "Home.aspx",
+              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Home.aspx",
+              "RelativeDocumentMoniker": "Home.aspx",
+              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Home.aspx",
+              "RelativeToolTip": "Home.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-17T16:08:23.078Z",
+              "WhenOpened": "2025-10-17T16:59:58.475Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
             }
           ]
         }
