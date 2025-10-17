@@ -53,10 +53,10 @@
         <br />
 
 
-        <p><a class="btn btn-lg btn-primary" style="color: #ffffff; background-color: #E846CD ; border: medium solid #FF80AA">Social Media</a></p>
+        <p><a class="btn btn-lg btn-primary" style="color: #ffffff; background-color: #E846CD ; border: medium solid #FF80AA" href="Social.aspx">Social Media</a></p>
         <br />
         <p>Please be sure to follow us on Social Media!, links to social media websites</p>
-        <p><a class="btn btn-lg btn-primary" style="color: #ffffff; background-color: #E846CD ; border: medium solid #FF80AA">Reviews</a></p>
+        <p><a class="btn btn-lg btn-primary" style="color: #ffffff; background-color: #E846CD ; border: medium solid #FF80AA" href="Reviews.aspx">Reviews</a></p>
 		
    <p>Leave us a review and let us how we are doing and how we can improve. </p>
 </div>
