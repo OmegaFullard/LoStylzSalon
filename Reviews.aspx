@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Customer Reviews</h1>
-
+        <form id="form1" runat="server">
         <asp:Panel runat="server" ID="panelForm">
             <h2>Leave a Review</h2>
 
@@ -54,6 +54,7 @@
 
             <asp:Button runat="server" ID="btnSubmit" Text="Submit Review" CssClass="btn btn-primary" OnClick="btnSubmit_Click" />
         </asp:Panel>
+            </form>
 
         <hr />
 

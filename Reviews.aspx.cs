@@ -142,29 +142,14 @@ protected global::System.Web.UI.WebControls.Panel panelStats;
                 }
             }
         }
-
         private void LoadReviews()
         {
             var reviews = ReadReviewsFromFile()
-                .OrderByDescending(r => r.Date)
-                .ToList();
+              .OrderByDescending(r => r.Date)
+              .ToList();
 
-            // Bind reviews to repeater
             reviewsRepeater.DataSource = reviews;
             reviewsRepeater.DataBind();
-
-            // Compute and display average rating
-            if (reviews.Any())
-            {
-                var avg = reviews.Average(r => r.Rating);
-                lblAverageRating.Text = string.Format("Average rating: {0:0.0} ({1} review{2})", avg, reviews.Count, reviews.Count == 1 ? "" : "s");
-                panelStats.Visible = true;
-            }
-            else
-            {
-                lblAverageRating.Text = "No reviews yet.";
-                panelStats.Visible = true;
-            }
         }
     }
 }
