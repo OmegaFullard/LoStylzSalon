@@ -11,25 +11,16 @@ namespace LoStylz_Salon
 {
 
 
-	public partial class BookAppt
-	{
+    public partial class BookAppt
+    {
 
-		/// <summary>
-		/// NavigationMenu control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Menu NavigationMenu;
-
-		/// <summary>
-		/// sylist control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Image sylist;
-	}
+        /// <summary>
+        /// NavigationMenu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Menu NavigationMenu;
+    }
 }

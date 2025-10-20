@@ -37,6 +37,9 @@
             <img src="images/hair9.jpg" alt="platinum blonde"/>
   
 </div>
+        <br />
+        <br />
+       
         <p>
             Our committed and competent team is here to help keep your hair, nails, skin, and body healthy and beautiful. 
             In addition to our regular beauty services such as pedicures, manicures, and hair services we will continue to perfect our skills and keep educated on all the latest styles. 

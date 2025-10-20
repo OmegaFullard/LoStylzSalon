@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|c:\\users\\omega.fullard\\source\\repos\\lostylz_salon\\lostylzsalon\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{02BBF971-6A90-4761-85F9-82C6D8518151}|LoStylz_Salon.csproj|solutionrelative:contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +46,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Contact.aspx",
+              "RelativeDocumentMoniker": "Contact.aspx",
+              "ToolTip": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Contact.aspx",
+              "RelativeToolTip": "Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-17T18:56:02.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.aspx",
               "DocumentMoniker": "C:\\Users\\omega.fullard\\source\\repos\\LoStylz_Salon\\LoStylzSalon\\Home.aspx",
@@ -50,7 +67,7 @@
               "RelativeToolTip": "Home.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-10-17T16:59:58.475Z",
+              "WhenOpened": "2025-10-17T18:53:43.496Z",
               "EditorCaption": ""
             }
           ]

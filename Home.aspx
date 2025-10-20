@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="LoStylz_Salon._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+     <div aria-dropeffect="move" style="padding-left:10px; padding-right:10px; height:850px;overflow: auto; background:#e1f0e9"> 
     <asp:PlaceHolder runat="server">
       <%: Scripts.Render("~/bundles/modernizr") %>
   </asp:PlaceHolder>
@@ -8,12 +9,6 @@
   <webopt:bundlereference runat="server" path="~/Content/css" />
      <main>
      
-                                <div aria-dropeffect="move" style="padding-left:10px; padding-right:10px; height:850px;overflow: auto; background:#e1f0e9"> 
-                                                          
-                                    
-        <br />
-        <br />
-   
         <center><h2>Welcome to Lo Stylz Hair Salon</h2>
               <center>
                                <asp:Image ID="salonstation" runat="server" ImageUrl="~/images/station.jpg"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="300px" style="margin-top: 5px" Width="300px" />
@@ -43,7 +38,7 @@
 
     <div class="row mb-3">
       <div class="col-12 text-center">
-        <h3>Meet Our Stylists</h3>
+        <h3>Stylist Spotlight</h3>
         <p class="text-muted small">Experienced professionals ready to help you look and feel your best.</p>
       </div>
     </div>
@@ -51,7 +46,7 @@
     <div class="row g-4">
       <div class="col-md-4">
         <article class="card h-100" aria-labelledby="stylist-lola">
-          <img src="images/lola.png" class="card-img-top" alt="Lola James">
+          <img src="images/lola.png" class="card-img-top" alt="Lola James" style="width:100px;height:100px; Border-Radius:25px;">
           <div class="card-body">
             <h5 id="stylist-lola" class="card-title">Lola James</h5>
             <p class="card-text small">Senior stylist with 12 years of experience in precision cutting and balayage. Passionate about customized cuts that flatter each client's face shape.</p>
@@ -62,7 +57,7 @@
 
       <div class="col-md-4">
         <article class="card h-100" aria-labelledby="stylist-bill">
-          <img src="images/bill.png" class="card-img-top" alt="Bill Gully">
+          <img src="images/bill.png" class="card-img-top" alt="Bill Gully" style="width:100px;height:100px; Border-Radius:25px;">
           <div class="card-body">
             <h5 id="stylist-bill" class="card-title">Bill Gully</h5>
             <p class="card-text small">Color specialist and creative stylist known for natural-looking color and seamless blends. Strong focus on hair health and long-term results.</p>
@@ -73,7 +68,7 @@
 
       <div class="col-md-4">
         <article class="card h-100" aria-labelledby="stylist-nicole">
-          <img src="images/nicole.png" class="card-img-top" alt="Nicole Rappenport">
+          <img src="images/nicole.png" class="card-img-top" alt="Nicole Rappenport" style="width:100px;height:100px; Border-Radius:25px;">
           <div class="card-body">
             <h5 id="stylist-nicole" class="card-title">Nicole Rappenport</h5>
             <p class="card-text small">Expert in styling and bridal hair with a warm, client-first approach. Enjoys creating looks for special occasions and everyday confidence.</p>
@@ -131,8 +126,13 @@
         <p><a class="btn btn-lg btn-primary" style="color: #ffffff; background-color: #E846CD ; border: medium solid #FF80AA" href="Reviews.aspx">Reviews</a></p>
 		
    <p>Leave us a review and let us how we are doing and how we can improve. </p>
-</div>
+
+
+
+
+
+
     </main>
-      
+      </div>
        
 </asp:Content>

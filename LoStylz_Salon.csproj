@@ -131,6 +131,7 @@
     <Content Include="Home.aspx" />
     <Content Include="Global.asax" />
     <Content Include="images\admin.png" />
+    <Content Include="images\bill.png" />
     <Content Include="images\defaultuser.png" />
     <Content Include="images\favicon\android-chrome-192x192.png" />
     <Content Include="images\favicon\android-chrome-512x512.png" />
@@ -152,6 +153,8 @@
     <Content Include="images\Invoice.png" />
     <Content Include="images\ladybg.png" />
     <Content Include="images\LogoLoStylz.png" />
+    <Content Include="images\lola.png" />
+    <Content Include="images\nicole.png" />
     <Content Include="images\promo.png" />
     <Content Include="images\rollers.jpg" />
     <Content Include="images\shampoo.jpg" />

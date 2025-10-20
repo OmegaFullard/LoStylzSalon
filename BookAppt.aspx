@@ -307,8 +307,9 @@
     <!-- Add more services as needed -->
   </select>
 <br />
+      <br />
   <label for="stylist">Choose a Stylist:</label>
-          <asp:Image ID="sylist" runat="server" ImageUrl="~/images/stylist.jpg" class="img"  BorderColor="lightpink" BorderStyle="Solid" BorderWidth="1px" Height="150px" style="margin-top: 5px" Width="150px" />
+        
   <select id="stylist" name="stylist">
     <option value="stylist1">Lola James</option>
     <option value="stylist2">Bill Gully</option>
@@ -328,6 +329,8 @@
   <input type="time" id="time" name="time" required>
 
         <br />
+      <br />
+      <br />
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
         

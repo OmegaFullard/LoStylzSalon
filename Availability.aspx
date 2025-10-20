@@ -256,9 +256,12 @@
             <!-- Time slots will be populated here -->
      
         <br />
+         <br />
                 <label for="deposit">Deposit Amount:</label>
         <input type="number" id="deposit" name="deposit" value="40" readonly> <!-- Example deposit amount -->
         <br />
+         <br />
+         <br />
         <button type="button" onclick="window.location.href='BookAppt.aspx'">Book Appointment</button>
  
 
