@@ -1,2 +1,78 @@
 vs/
 *.vsidx
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.env
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+[Dd]ebug/x64/
+[Dd]ebugPublic/x64/
+[Rr]elease/x64/
+[Rr]eleases/x64/
+bin/x64/
+obj/x64/
+
+[Dd]ebug/x86/
+[Dd]ebugPublic/x86/
+[Rr]elease/x86/
+[Rr]eleases/x86/
+bin/x86/
+obj/x86/
+
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]64[Ee][Cc]/
+bld/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Build results on 'Bin' directories
+**/[Bb]in/*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+
+
+
+
