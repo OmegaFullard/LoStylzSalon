@@ -1,4 +1,4 @@
-# LoStylz Salon
+# Lo Stylz Hair Salon (Fictional Company)
 
 > Modern cuts. Classic service. Confident you.
 
@@ -36,24 +36,24 @@ Welcome to LoStylz Salon — where great style meets personal care. We specializ
 ---
 
 ## Location
-LoStylz Salon  
-1234 Style Ave, Suite 200  
-Anytown, ST 12345
+Lo Stylz Hair Salon  
+6868 Cutz Way
+Royal City, FL 30039
 
 ---
 
 ## Booking & Contact
 Book online: https://lostylzsalon.com/book  
-Phone: +1 (555) 123-4567  
+Phone: +1 (813) 855-0100  
 Email: info@lostylzsalon.com
 
 ---
 
 ## Team
-- Nicole — Junior Stylist / Apprentice
+- Nicole - Junior Stylist / Apprentice
   Experience in bespoke color and bridal styling. Passionate about modern balayage and precision cuts.
 
-- Bill — Senior Stylist  
+- Bill - Senior Stylist  
   Specialist in men's grooming and corrective color. Loves textured cuts and lived-in color.
 
 - Kannady - Lead Stylist & Color Specialist  
@@ -62,7 +62,7 @@ Email: info@lostylzsalon.com
 - Jessie - Barber
   10+ years of experience specializing in harcuts, grooming, and trims for men, women, and children
 
-- Lilith
+- Lilith - Beutification Specialist
   Eybrows, makeup, and waxing
 
 - Skylar - Barber
