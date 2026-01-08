@@ -2,7 +2,7 @@
 
 > Modern cuts. Classic service. Confident you.
 
-![LoStylz Logo](assets/LogoLoStylz.png)
+<img width="150" height="150" alt="LogoLoStylz" src="https://github.com/user-attachments/assets/58a267e0-d3d8-4366-8e63-a65e8b42726b" />
 
 Welcome to LoStylz Salon — where great style meets personal care. We specialize in haircuts, coloring, styling, and treatments tailored to each client. Our team blends creativity with technique to help you look and feel your best.
 
