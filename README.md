@@ -51,24 +51,30 @@ Email: info@lostylzsalon.com
 
 ## Team
 - Nicole - Junior Stylist / Apprentice:
+  
   Experience in bespoke color and bridal styling. Passionate about modern balayage and precision cuts.
 
 - Bill - Senior Stylist:  
   Specialist in men's grooming and corrective color. Loves textured cuts and lived-in color.
 
-- Kannady - Lead Stylist & Color Specialist:  
+- Kannady - Lead Stylist & Color Specialist:
+  
   Focused on styling and treatments, currently training in advanced color techniques.
 
 - Jessie - Barber:
+  
   10+ years of experience specializing in harcuts, grooming, and trims for men, women, and children
 
 - Lilith - Beutification Specialist:
+  
   Eybrows, makeup, and waxing
 
 - Skylar - Barber:
+  
   Beard trims, shaving, and men coloring and styles
 
 - Pauline - Team Manager:
+  
   7+ years of management experience within a hair salon
 
 ---
