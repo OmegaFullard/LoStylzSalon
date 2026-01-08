@@ -2,7 +2,7 @@
 
 > Modern cuts. Classic service. Confident you.
 
-![LoStylz Logo](assets/logo.png)
+![LoStylz Logo](assets/LogoLoStylz.png)
 
 Welcome to LoStylz Salon — where great style meets personal care. We specialize in haircuts, coloring, styling, and treatments tailored to each client. Our team blends creativity with technique to help you look and feel your best.
 
@@ -50,23 +50,37 @@ Email: info@lostylzsalon.com
 ---
 
 ## Team
-- Jordan Avery — Lead Stylist & Color Specialist  
-  10+ years experience in bespoke color and bridal styling. Passionate about modern balayage and precision cuts.
+- Nicole — Junior Stylist / Apprentice
+  Experience in bespoke color and bridal styling. Passionate about modern balayage and precision cuts.
 
-- Taylor Morgan — Senior Stylist  
+- Bill — Senior Stylist  
   Specialist in men's grooming and corrective color. Loves textured cuts and lived-in color.
 
-- Casey Rivera — Junior Stylist / Apprentice  
+- Kannady - Lead Stylist & Color Specialist  
   Focused on styling and treatments, currently training in advanced color techniques.
 
-(Provide headshots in `assets/team/` as `jordan.jpg`, `taylor.jpg`, `casey.jpg` to display on the site.)
+- Jessie - Barber
+  10+ years of experience specializing in harcuts, grooming, and trims for men, women, and children
+
+- Lilith
+  Eybrows, makeup, and waxing
+
+- Skylar - Barber
+  Beard trims, shaving, and men coloring and styles
+
+- Pauline - Team Manager
+  7+ years of management experience within a hair salon
 
 ---
 
 ## Gallery
-Showcase your best work here. Add images to the `assets/gallery/` folder and reference them:
-![Style Example 1](assets/gallery/style1.jpg)
-![Style Example 2](assets/gallery/style2.jpg)
+
+![hair5](https://github.com/user-attachments/assets/906f0cf2-69cd-4653-b8e5-ac6e3f5de894)
+![hair2](https://github.com/user-attachments/assets/4d1a4be8-673a-422f-a602-f3279a3decd5)
+![hair](https://github.com/user-attachments/assets/4788c954-4ea3-4e13-8571-0200e1f738bd)
+![hair7](https://github.com/user-attachments/assets/130c5be0-6157-404f-b603-488f98f4ccc6)
+![hair6](https://github.com/user-attachments/assets/65172442-676a-4e43-b356-31198df6c824)
+
 
 ---
 
