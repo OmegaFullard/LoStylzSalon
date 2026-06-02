@@ -212,24 +212,28 @@
 
      <div class="topnav menu">
             <asp:Menu ID="NavigationMenu" runat="server" CssClass="topnav" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" EnableScreenBoundaryDetection="true">
-               <Items>
-              
-                    <asp:MenuItem NavigateUrl="Home.aspx" Text="Home" />
-                    
-                   
-        
-                   <asp:MenuItem Text="Lo Stylz">
-                
-               <asp:MenuItem Text="Contact Us" NavigateUrl="Contact.aspx"></asp:MenuItem>
-               <asp:MenuItem Text="Availability" NavigateUrl="Availability.aspx"></asp:MenuItem>
-               <asp:MenuItem Text= "Book Appt" NavigateUrl="BookAppt.aspx"></asp:MenuItem>
-               <asp:MenuItem Text="Gallery" NavigateUrl="Gallery.aspx"></asp:MenuItem>
-			 
-             </asp:MenuItem>
+                  <Items>
 
-           
-            </Items>
-            </asp:Menu>
+        <asp:MenuItem NavigateUrl="Home.aspx" Text="Lo Stylz Home" />
+
+
+        <asp:MenuItem Text="Services">
+
+
+            <asp:MenuItem Text="Availability" NavigateUrl="Availability.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Book Appt" NavigateUrl="BookAppt.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Gallery" NavigateUrl="Gallery.aspx"></asp:MenuItem>
+        </asp:MenuItem>
+        <asp:MenuItem Text="Information">
+            <asp:MenuItem Text="Contact Us" NavigateUrl="Contact.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Support" NavigateUrl="Support.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Privacy" NavigateUrl="Privacy.aspx"></asp:MenuItem>
+            <asp:MenuItem Text="Terms" NavigateUrl="Terms.aspx"></asp:MenuItem>
+        </asp:MenuItem>
+
+
+    </Items>
+</asp:Menu>
 </div>
     <!-- Custom styles for this template -->
     <link href="checkout.css" rel="stylesheet">

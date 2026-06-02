@@ -4,6 +4,49 @@
        <div aria-dropeffect="move" style="padding-left:10px; padding-right:10px; height:850px;overflow: auto; background:#e1f0e9"> 
     <main aria-labelledby="title">
         <h2 id="Lo Stylz Hair Salon"><%: Title %></h2>
+        
+          <asp:ValidationSummary ID="vsContact" runat="server" ForeColor="Red" HeaderText="Please correct the following:" />
+        <table style="max-width:700px; width:100%;">
+            <tr>
+                <td style="width:160px;"><strong>Name:</strong></td>
+                <td>
+                    <asp:TextBox ID="txtName" runat="server" Width="100%"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvName" runat="server" ControlToValidate="txtName" ErrorMessage="Name is required." ForeColor="Red" Display="Dynamic" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td>
+                    <asp:TextBox ID="txtEmail" runat="server" Width="100%"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ControlToValidate="txtEmail" ErrorMessage="Email is required." ForeColor="Red" Display="Dynamic" />
+                    <asp:RegularExpressionValidator ID="revEmail" runat="server" ControlToValidate="txtEmail" ValidationExpression="^[^@\s]+@[^@\s]+\.[^@\s]+$" ErrorMessage="Enter a valid email address." ForeColor="Red" Display="Dynamic" />
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Subject:</strong></td>
+                <td>
+                    <asp:TextBox ID="txtSubject" runat="server" Width="100%"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvSubject" runat="server" ControlToValidate="txtSubject" ErrorMessage="Subject is required." ForeColor="Red" Display="Dynamic" />
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;"><strong>Message:</strong></td>
+                <td>
+                    <asp:TextBox ID="txtMessage" runat="server" TextMode="MultiLine" Rows="6" Width="100%"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvMessage" runat="server" ControlToValidate="txtMessage" ErrorMessage="Message is required." ForeColor="Red" Display="Dynamic" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <asp:Button ID="btnSubmitContact" runat="server" Text="Send Message" CssClass="btn btn-primary" OnClick="btnSubmitContact_Click" />
+                </td>
+            </tr>
+        </table>
+        <br />
+        <asp:Label ID="lblContactStatus" runat="server" ForeColor="Green"></asp:Label>
+
+        <hr />
 
     <h3>Mission:</h3>
         <p>
@@ -23,7 +66,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57193.09180205354!2d-80.15856521208183!3d26.37282350483545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d91e8e657ad4b7%3A0xbb71680d67a486f!2sBoca%20West%20Country%20Club!5e0!3m2!1sen!2sus!4v1732289143189!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <br />
         <br />    
-        <a href="#" class="btn btn-primary">Directions</a>
+        <a href="Directions.aspx" class="btn btn-primary">Directions</a>
            <br />
         <br />
         <address>

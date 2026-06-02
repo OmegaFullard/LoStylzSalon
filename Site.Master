@@ -2,27 +2,27 @@
 
 <!DOCTYPE html>
 
-  <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon"/>
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-         <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png"/>
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png"/>
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png"/>
-<link rel="manifest" href="/site.webmanifest"/>
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+<link rel="manifest" href="/site.webmanifest" />
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
 
-                  <%--Logo--%>
+<%--Logo--%>
 
-            <a href="#" class="logo">
-                <img src="images/LogoLoStylz.png" alt="site logo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#" class="logo">
+    <img src="images/LogoLoStylz.png" alt="site logo" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     
                   <h4 style="font-size: xx-large; font-weight: bold; font-style: italic; text-align: center;">Lo Stylz Hair Salon</h4>
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-   
 
-<meta name="msapplication-TileColor" content="#da532c"/>
-<meta name="theme-color" content="#FCF7E3"/>
+
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#FCF7E3" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - Lo Stylz Hair Salon</title>
@@ -31,48 +31,116 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
-   
-     <style>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
 
+    <style>
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
 
+        @media only screen and (min-width: 600px) {
+            /* For tablets: */
+            .col-s-1 {
+                width: 8.33%;
+            }
 
-/* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
+            .col-s-2 {
+                width: 16.66%;
+            }
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
-</style>
+            .col-s-3 {
+                width: 25%;
+            }
+
+            .col-s-4 {
+                width: 33.33%;
+            }
+
+            .col-s-5 {
+                width: 41.66%;
+            }
+
+            .col-s-6 {
+                width: 50%;
+            }
+
+            .col-s-7 {
+                width: 58.33%;
+            }
+
+            .col-s-8 {
+                width: 66.66%;
+            }
+
+            .col-s-9 {
+                width: 75%;
+            }
+
+            .col-s-10 {
+                width: 83.33%;
+            }
+
+            .col-s-11 {
+                width: 91.66%;
+            }
+
+            .col-s-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -92,77 +160,79 @@
                 <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
                 <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
                 <asp:ScriptReference Name="WebFormsBundle" />
-              
+
             </Scripts>
         </asp:ScriptManager>
-                    <%--Site Scripts--%>
+        <%--Site Scripts--%>
         <link href="Styles/styles.css" rel="stylesheet" />
-            <script src="Scripts/jquery-3.4.1.slim.min.js"></script>      
-<script src="http://localhost:64954/Scripts/popper.min.js"></script>
-<script src="http://localhost:64954/Scripts/bootstrap.min.js"></script>
+        <script src="Scripts/jquery-3.4.1.slim.min.js"></script>
+        <script src="http://localhost:64954/Scripts/popper.min.js"></script>
+        <script src="http://localhost:64954/Scripts/bootstrap.min.js"></script>
 
-         <link href="http://localhost:64954/css/bootstrap.min.css" rel="stylesheet" />
- <link href="http://localhost:64954/Content/DataTables/css/dataTables.jqueryui.min.css" rel="stylesheet" />
+        <link href="http://localhost:64954/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="http://localhost:64954/Content/DataTables/css/dataTables.jqueryui.min.css" rel="stylesheet" />
 
- <link href="http://localhost:64954/css/font-awesome.css" rel="stylesheet" />
-       	  <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-     
-        	  <script>
-    $(document).ready(function(){
-    $('#pw').keypress(function(e){
-      if(e.keyCode==13)
-      $('#GoBtn').click();
-    });
-});
-              </script>
+        <link href="http://localhost:64954/css/font-awesome.css" rel="stylesheet" />
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-               <!-- Main Nav -->
+        <script>
+    $(document).ready(function () {
+                   $('#pw').keypress(function (e) {
+                       if (e.keyCode == 13)
+                           $('#GoBtn').click();
+                   });
+               });
+        </script>
 
-     <div class="topnav menu">
+        <!-- Main Nav -->
+
+        <div class="topnav menu">
             <asp:Menu ID="NavigationMenu" runat="server" CssClass="topnav" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" EnableScreenBoundaryDetection="true">
-               <Items>
-              
-                    <asp:MenuItem NavigateUrl="Home.aspx" Text="Lo Stylz Home" />
-                    
-        
-                   <asp:MenuItem Text="Services">
-                
-              
-               <asp:MenuItem Text="Availability" NavigateUrl="Availability.aspx"></asp:MenuItem>
-               <asp:MenuItem Text= "Book Appt" NavigateUrl="BookAppt.aspx"></asp:MenuItem>
-               <asp:MenuItem Text="Gallery" NavigateUrl="Gallery.aspx"></asp:MenuItem>
-			   </asp:MenuItem>
-                     <asp:MenuItem Text="Information">
-                       <asp:MenuItem Text="Contact Us" NavigateUrl="Contact.aspx"></asp:MenuItem>
-               <asp:MenuItem Text="Support" NavigateUrl="Support.aspx"></asp:MenuItem>
-               <asp:MenuItem Text="Privacy" NavigateUrl="Privacy.aspx"></asp:MenuItem>
-               <asp:MenuItem Text="Terms" NavigateUrl="Terms.aspx"></asp:MenuItem>
-             </asp:MenuItem>
+                <Items>
 
-           
-            </Items>
+                    <asp:MenuItem NavigateUrl="Home.aspx" Text="Lo Stylz Home" />
+
+
+                    <asp:MenuItem Text="Services">
+
+
+                        <asp:MenuItem Text="Availability" NavigateUrl="Availability.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Book Appt" NavigateUrl="BookAppt.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Gallery" NavigateUrl="Gallery.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Information">
+                        <asp:MenuItem Text="Contact Us" NavigateUrl="Contact.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Support" NavigateUrl="Support.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Privacy" NavigateUrl="Privacy.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Terms" NavigateUrl="Terms.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+
+
+                </Items>
             </asp:Menu>
-</div>
-           
+        </div>
+
         <div class="body">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
             <hr />
             <footer>
                 <!-- Footer -->
- <div class="row">
-        <div class="col-md-12">
-    
- 
-            <!-- Add font awesome icons -->
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-linkedin"></a>
-<a href="#" class="fa fa-youtube"></a>
-<a href="#" class="fa fa-instagram"></a>
-    </div>
-     </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+
+                        <!-- Add font awesome icons -->
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
                 <p>&copy; <%: DateTime.Now.Year %> -Lo Stylz Hair Salon</p>
             </footer>
         </div>

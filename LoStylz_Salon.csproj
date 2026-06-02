@@ -109,6 +109,7 @@
     <Content Include="availability.js" />
     <Content Include="BookAppt.aspx" />
     <Content Include="checkout.js" />
+    <Content Include="Directions.aspx" />
     <Content Include="Gallery.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -246,6 +247,13 @@
     </Compile>
     <Compile Include="BookAppt.aspx.designer.cs">
       <DependentUpon>BookAppt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Directions.aspx.cs">
+      <DependentUpon>Directions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Directions.aspx.designer.cs">
+      <DependentUpon>Directions.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gallery.aspx.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>

@@ -1,0 +1,103 @@
+﻿<%@ Page Title="Gallery" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="LoStylz_Salon.Gallery" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <main aria-labelledby="title">
+    <div aria-dropeffect="move" style="padding-left:10px; padding-right:10px; height:850px;overflow: auto; background:#e1f0e9"> 
+
+        <center><h3>Gallery</h3></center>
+<div class="container py-3">
+
+  <div class="col">
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+       <div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair.jpg" class="card-img-top" alt="woman with purple hair">
+  <div class="card-body">
+    <p class="card-text">Bold purple balayage with soft waves for a vibrant, fashion-forward look.</p>
+  </div>
+</div>
+        
+<div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair2.jpg" class="card-img-top" alt="woman with burnt orange hair">
+  <div class="card-body">
+    <p class="card-text">Rich burnt-orange color melt styled with texture and shine.</p>
+  </div>
+</div>
+
+<div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair3.jpg" class="card-img-top" alt="natural long curly hair">
+  <div class="card-body">
+    <p class="card-text">Defined long curls with hydration-focused styling for healthy bounce.</p>
+  </div>
+</div>
+        </div>
+ <div class="col">
+     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+<div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair4.jpg" class="card-img-top" alt="natural short hair">
+  <div class="card-body">
+    <p class="card-text">Chic natural short cut shaped for easy maintenance and everyday style.</p>
+  </div>
+</div>
+
+<div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair5.jpg" class="card-img-top" alt="woman with pink hair">
+  <div class="card-body">
+    <p class="card-text">Playful pink tones blended seamlessly for a modern creative finish.</p>
+  </div>
+</div>
+
+<div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair6.jpg" class="card-img-top" alt="older woman with ash blonde hair">
+  <div class="card-body">
+    <p class="card-text">Elegant ash-blonde tone with a soft layered finish for timeless beauty.</p>
+  </div>
+</div>
+     </div>
+     </div>
+      <div class="col">
+          <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+<div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair7.jpg" class="card-img-top" alt="woman with long red hair">
+  <div class="card-body">
+    <p class="card-text">Glossy long red style with dimensional highlights for added depth.</p>
+  </div>
+</div>
+
+<div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair8.jpg" class="card-img-top" alt="blonde">
+  <div class="card-body">
+    <p class="card-text">Classic blonde look with bright tones and smooth salon styling.</p>
+  </div>
+</div>
+
+<div class="card mb-4 rounded-3 shadow-sm" style="width: 18rem;">
+  <img src="images/hair9.jpg" class="card-img-top" alt="platinum blonde">
+  <div class="card-body">
+    <p class="card-text">Icy platinum blonde with precision toning for a clean, high-impact finish.</p>
+  </div>
+</div>
+          </div>
+          </div>
+        </div>
+    </div>
+        <br />
+        <br />
+       
+        <p>
+            Our committed and competent team is here to help keep your hair, nails, skin, and body healthy and beautiful. 
+            In addition to our regular beauty services such as pedicures, manicures, and hair services we will continue to perfect our skills and keep educated on all the latest styles. 
+            Enjoy our wide range of services in a cozy and luxurious environment. 
+            We look forward to serving you!
+        </p>
+        <p>
+            We promise to exceed your expectation, if by chance we do not meet your expectations please notify us as we will try our very best to fulfill your hair goals! 
+            We highly believe our talented team will deliver exceptional results while keeping the integrity of your hair with a thorough professional consultation and service.
+        </p>
+        <p>
+            Our passion is simple – we live to help every guest look and feel beautiful. We know our guests expect extraordinary results. 
+            Our salon professionals continously explore the latest trends and techniques to transform your look with styles inspired by fashion runways from around the world.
+        </p>
+       </div>
+        
+    </main>
+</asp:Content>
